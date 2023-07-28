@@ -58,7 +58,7 @@ nav {
   background: #dfdddd;
   padding: 20px;
   position: sticky;
-  top: 104px;
+  top: -7px;
 }
 nav ul {
   white-space: nowrap;
@@ -88,4 +88,27 @@ article h1 {
   color: #4b4b4b;
   font-size: 48px;
   padding: 20px;
+}
+.bodyimage {
+  white-space: nowrap;
+  text-align: center;
+  padding: 40px;
+  position: relative;
+}
+.bodyimage img {
+  display: inline-block;
+  width: 30%;
+  padding: 20px;
+  white-space: nowrap;
+}
+.random {
+  border: 5px solid #4b4b4b;
+  background-color: rgb(215, 211, 211);
+}
+.random p {
+  border: 5px solid #4b4b4b;
+  background-color: #dfdddd;
+  text-align: center;
+  padding: 60px 20%;
+  color: #4b4b4b;
 }
